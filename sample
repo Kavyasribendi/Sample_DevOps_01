@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundation Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #0056b3;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+
+        main {
+            padding: 2em;
+        }
+
+        section {
+            background-color: white;
+            margin-bottom: 2em;
+            padding: 1.5em;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        #donate-btn {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+
+        #donate-btn:hover {
+            background-color: #218838;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1em 0;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Our Foundation</h1>
+        <p>A mission to help others.</p>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We are a non-profit organization dedicated to making a positive impact on the world. Our mission is to...</p>
+        </section>
+
+        <section id="donate">
+            <h2>Donate</h2>
+            <p>Your support helps us continue our work. Click the button to donate!</p>
+            <button id="donate-btn">Donate Now</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Foundation Example. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        document.getElementById('donate-btn').addEventListener('click', function () {
+            alert('Thank you for your interest in donating! This is a simple example.');
+        });
+    </script>
+</body>
+</html>
